@@ -1,8 +1,8 @@
-let lessThan = 1
+/*let lessThan = 1
 do{
     console.log(`* ${lessThan}`)
     lessThan++
-}while (lessThan < 7)
+}while (lessThan < 20)
 
 /*let trackSong = 10
 switch(trackSong){
@@ -58,3 +58,24 @@ if(airSit <= a) {
 }else {
     console.log("You are on first class section")
 }*/
+
+let number = 1
+
+while(number <= 100) {
+    console.log(`The multiple of 2 number is ${number}`)
+    number *= 2
+
+
+}
+
+let chelseaPlayers = ['Palmer', "Delap", "Neto", "Pedro", "Calciedo", "James"];
+
+// Solved this using normal "for loop"
+for (let i = 0; i < chelseaPlayers.length; i++){
+    console.log(chelseaPlayers[i]);
+}
+
+// "For of loop" is used below
+for (players of chelseaPlayers) {
+    console.log(players)
+};

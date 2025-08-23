@@ -113,5 +113,3 @@ for (let eagerly in manyObjects) {//This line of code is used to check the propr
 
     console.log(manyObjects[eagerly])// This line of code will display the values 
 }*/
-
-
