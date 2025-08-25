@@ -59,16 +59,40 @@ if(airSit <= a) {
     console.log("You are on first class section")
 }*/
 
-let number = 1
+let number = 1;
 
-while(number <= 100) {
-    console.log(`The multiple of 2 number is ${number}`)
-    number *= 2
+while(number <= 12) {
+    console.log(`1 x ${number} =`)
+    number++;
+
+};
+
+let numbers2 = 1;
+while(numbers2 <= 12) {
+    console.log(`2 x ${numbers2} =`)
+    numbers2++;
+};
+
+let numbers3 = 1;
+while(numbers3 <= 12){
+    console.log(`3 x ${numbers3} =`)
+    numbers3++
+};
+
+let numbers4 = 1;
+while(numbers4 <= 12){
+    console.log(`4 x ${numbers4} =`)
+    numbers4++
+};
+
+let numbers5 = 1;
+while(numbers5 <= 12){
+    console.log(`5 x ${numbers5} =`)
+    numbers5++
+};
 
 
-}
-
-let chelseaPlayers = ['Palmer', "Delap", "Neto", "Pedro", "Calciedo", "James"];
+/*let chelseaPlayers = ['Palmer', "Delap", "Neto", "Pedro", "Calciedo", "James"];
 
 // Solved this using normal "for loop"
 for (let i = 0; i < chelseaPlayers.length; i++){
@@ -78,4 +102,4 @@ for (let i = 0; i < chelseaPlayers.length; i++){
 // "For of loop" is used below
 for (players of chelseaPlayers) {
     console.log(players)
-};
+};*/
